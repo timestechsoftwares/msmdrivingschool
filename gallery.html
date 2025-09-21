@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | MSM Driving School</title>
+    <link rel="stylesheet" href="./src/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <img src="/logo.jpeg" alt="MSM Driving School Logo">
+            </div>
+            <div class="nav-link-container">
+                <div class="close-menu-button"><i class="fas fa-times"></i></div>
+                <a href="/">Home</a>
+                <a href="/about.html">About Us</a>
+                <a href="/courses.html">Courses</a>
+                <a href="/team.html">Our Team</a>
+                <a href="/gallery.html" class="active">Gallery</a>
+                <a href="/contact.html">Contact Us</a>
+                <div class="mobile-nav-buttons">
+                    <button class="btn-primary">Book Lesson</button>
+                </div>
+            </div>
+            <div class="navbar-buttons">
+                <button class="btn-primary">Book Lesson</button>
+            </div>
+            <div class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1>Our <span class="highlight">Success</span> Stories</h1>
+            <p>A glimpse into the moments that make us proud.</p>
+        </section>
+
+        <!-- Draggable Gallery Section -->
+        <section class="gallery-section">
+            <div class="gallery-container">
+                <div class="gallery-track">
+                    <!-- Add your images here -->
+                    <img src="https://images.unsplash.com/photo-1544376798-89aa6b82c66c?w=500"
+                        alt="Student during a lesson">
+                    <img src="https://images.unsplash.com/photo-1616023348827-02a82d5a3b23?w=500"
+                        alt="Student holding a pass certificate">
+                    <img src="https://images.unsplash.com/photo-1581403341639-ea7a3d3163a7?w=500"
+                        alt="Instructor teaching a student">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500"
+                        alt="Instructor smiling">
+                    <img src="https://images.unsplash.com/photo-1628243288029-4a4133596549?w=500"
+                        alt="A passed driving test">
+                    <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7185743?w=500"
+                        alt="Happy student with a car">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer-main">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section about">
+                    <img src="/logo.jpeg" alt="MSM Driving School Logo" class="footer-logo">
+                    <p>Your journey to becoming a safe, confident, and licensed driver starts here.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/courses">Courses</a></li>
+                        <li><a href="/team">Our Team</a></li>
+                        <li><a href="/gallery">Gallery</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3 class="footer-heading">Get In Touch</h3>
+                    <div class="contact-item"><i class="fas fa-map-marker-alt"></i>
+                        <p>195 Harrow Road, Wembley, Middlesex, HA9 6DS, UK</p>
+                    </div>
+                    <div class="contact-item"><i class="fas fa-phone-alt"></i>
+                        <p>+44-075 8826 8827</p>
+                    </div>
+                    <div class="contact-item"><i class="fas fa-envelope"></i>
+                        <p>contact@msmschool.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MSM Driving School. All Rights Reserved.</p>
+            <p>Designed & Developed by <a href="https://timestech.in/" target="_blank"
+                    rel="noopener noreferrer">Timestech Software</a></p>
+        </div>
+    </footer>
+
+    <!-- GSAP Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Draggable.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./src/gallery.js"></script>
+</body>
+
+</html>
