@@ -97,6 +97,10 @@ body {
     transition: color 0.3s;
 }
 
+.nav-link-container a.active {
+    color: var(--primary-color);
+}
+
 .btn-primary {
     background-color: var(--primary-dark);
     color: var(--text-light);
@@ -321,6 +325,11 @@ main #page1 {
     font-size: 1.1rem;
     font-weight: 600;
     transition: background-color 0.3s;
+}
+
+#page1 .cta-button a {
+    color: var(--text-light);
+    text-decoration: none;
 }
 
 #page1 .insights {

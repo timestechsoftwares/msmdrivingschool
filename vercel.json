@@ -1,0 +1,26 @@
+{
+    "trailingSlash": false,
+    "rewrites": [
+      {
+        "source": "/about",
+        "destination": "/about.html"
+      },
+      {
+        "source": "/courses",
+        "destination": "/courses.html"
+      },
+      {
+        "source": "/team",
+        "destination": "/team.html"
+      },
+      {
+        "source": "/gallery",
+        "destination": "/gallery.html"
+      },
+      {
+        "source": "/contact",
+        "destination": "/contact.html"
+      }
+    ]
+  }
+  

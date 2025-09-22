@@ -1,3 +1,5 @@
+import gsap from "gsap";
+
 document.addEventListener("DOMContentLoaded", () => {
   // --- Hamburger Menu Logic ---
   const openMenuBtn = document.querySelector(".hamburger-menu");
